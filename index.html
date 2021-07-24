@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Cash Register</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+ 
+ <section class="section">
+  <h1>Cash Register App</h1>
+
+
+  <div class="label">Please Enter Bill Amount</div>
+  <div>
+   <input type="number" id="billAmount" placeholder=>
+  </div>
+
+  
+
+  <div class="cashGivenInput">
+   <div class="label">Cash Given:</div>
+   <input type="number" id="cashGiven" >
+   <button id="submitButton">Submit</button>
+  </div>
+
+  
+  <div class="errorMessage"></div>
+
+  
+  <div class="changeReturn">
+   <div class="label">Return Change : </div>
+   <div id="output">
+
+    
+    <table>
+     <tr>
+      <th>No.of Notes</td>
+      <td class="numberOfNotes"></td>
+      <td class="numberOfNotes"></td>
+      <td class="numberOfNotes"></td>
+      <td class="numberOfNotes"></td>
+      <td class="numberOfNotes"></td>
+      <td class="numberOfNotes"></td>
+      <td class="numberOfNotes"></td>
+      </tr>
+     <tr>
+      <th>Note's</td>
+      <td>2000</td>
+      <td>500</td>
+      <td>100</td>
+      <td>20</td>
+      <td>10</td>
+      <td>5</td>
+      <td>1</td>
+     </tr>
+    </table>
+   </div>
+  </div>
+
+
+ </section>
+
+ <script src="index.js"></script>
+</body>
+
+</html>
